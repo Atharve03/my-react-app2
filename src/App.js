@@ -5,7 +5,8 @@ import RedirectPage from "./RedirectPage";
 import QRCode from 'qrcode.react';
 
 function App(){
-  const redirectLink = 'http://192.168.1.160:3000/redirectPage?shop=sdfsdf';
+  // const redirectLink = 'http://192.168.1.160:3000/redirectPage?shop=sdfsdf';
+  const redirectLink = 'https://myreactapp2-d8cbd.web.app/redirectPage?shop=sdfsdf';
   return(
     <div>
     <QRCode value={redirectLink} />
