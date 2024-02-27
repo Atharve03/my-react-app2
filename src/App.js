@@ -11,7 +11,7 @@ function App(){
     <div>
     <QRCode value={redirectLink} />
      
-      <h1>gfgfh</h1>
+      <h1>Qr</h1>
       <BrowserRouter>
       <Routes>
         {/* <Route path="/server" element={<Server/>}></Route> */}
